@@ -1,0 +1,414 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.bg{
+    background: linear-gradient(287.15deg, #450E4B 0%, #3C0C41 24.48%, #CF0063 100%);
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+}
+
+.navbar{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    padding: 0 100px;
+    gap: 800px;
+    align-items: center;
+    animation: slideup 2s ease-in;
+}
+
+.navbar img{
+    width: 130px;
+    height: 60px;
+}
+
+.container{
+    display: flex;
+    list-style: none;
+    gap: 35px;
+    align-items: center;
+}
+
+.item{
+    transition: 1s;
+    cursor: pointer;
+}
+
+.item:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.banner{
+    display: flex;
+    width: 100%;
+    height: 90vh;
+    padding-top: 70px;
+    animation: slideup 2s ease-in;
+}
+
+.banner_txt{
+    width: 50%;
+    height: 100%;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.banner_txt h1{
+    font-size: 70px;
+    font-weight: 100;
+}
+
+.banner_txt p{
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.banner_txt button{
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    height: 45px;
+    font-size: 17px;
+    background: #CF0063;
+    box-shadow: 10px 10px 60px rgba(0, 0, 0, 0.5);
+    color: #fff;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.banner_txt button:hover{
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+.banner_img{
+    width: 50%;
+    height: 100%;
+}
+
+.banner_img img{
+    cursor: pointer;
+    transition: 1s;
+    width: 80%;
+    height: 80%;
+    margin-left: 100px;
+}
+
+.banner_img img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.banner2{
+    width: 100%;
+    height: 100vh;
+    background: #1B1B1B;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 100px;
+    animation: slideup 2s ease-in;
+    animation-delay: 1s;
+}
+
+.banner b{
+    color: #A8A8A8;
+}
+
+.banner2 b{
+    color: #A8A8A8;
+}
+
+.banner2 h1{
+    width: 600px;
+    text-align: center;
+}
+
+.banner2 img{
+    height: 500px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.banner2 img:hover{
+    transition: 1s;
+    transform: scale(1.1);
+    margin-top: -40px;
+}
+
+.banner3{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    animation: slideup 2s ease-in;
+    animation-delay: 2s;
+}
+
+.banner3_txt{
+    width: 50%;
+    height: 100%;
+    padding: 250px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.banner3_txt b{
+    color: #A8A8A8;
+}
+
+.banner3_txt p{
+    font-size: 20px;
+    width: 500px;
+    color: #A8A8A8;
+}
+
+.banner3_img{
+    width: 50%;
+    height: 100%;
+    padding: 100px;
+}
+
+.banner3_img img{
+    cursor: pointer;
+    transition: 1s;
+}
+
+.banner3_img img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.banner_cards{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    animation: slideup 2s ease-in;
+    animation-delay: 3s;
+}
+
+.banner_card{
+    max-width: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.banner_card:hover{
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+.banner_card img{
+    width: 50px;
+    height: 40px;
+}
+
+.banner4{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    padding: 100px 250px;
+    animation: slideup 2s ease-in;
+    animation-delay: 4s;
+}
+
+.banner4 h1{
+    font-size: 100px;
+    color: #A8A8A8;
+}
+
+.banner4 p{
+    font-size: 30px;
+    text-align: center;
+    color: #A8A8A8;
+}
+
+.img_div{
+    width: 100%;
+    height: 15vh;
+    animation: slideup 2s ease-in;
+    animation-delay: 5s;
+}
+
+.img_div img{
+    width: 100%;
+    height: 100%;
+}
+
+.img{
+    width: 100%;
+    height: 600px;
+}
+
+.img img{
+    width: 100%;
+    height: 100%;
+}
+
+.banner5{
+    background: linear-gradient(287.15deg, #450E4B 0%, #3C0C41 24.48%, #CF0063 100%);
+    width: 100%;
+    height: 80vh;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    animation: slideup 2s ease-in;
+    animation-delay: 6s;
+}
+
+.btns{
+    display: flex;
+    gap: 30px;
+}
+
+.btns button{
+    width: 180px;
+    height: 55px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.btns button:hover{
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+.btn1{
+    background-color: #CF0063;
+    border: none;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.btn1:hover{
+    background: transparent;
+    border: 2px solid #CF0063;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.btn2{
+    background: transparent;
+    border: 2px solid #CF0063;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.btn2:hover{
+    background-color: #CF0063;
+    border: none;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    height: 95vh;
+    background: #1B1B1B;
+    color: #fff;
+    animation: slideup 2s ease-in;
+    animation-delay: 7s;
+}
+
+.footer p{
+    color: #A8A8A8;
+}
+
+.search{
+    width: 600px;
+    height: 50px;
+    background: #fff;
+    border-radius: 5px;
+    display: flex;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.search:hover{
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+.search input{
+    width: 80%;
+    height: 100%;
+    background: transparent;
+    border-radius: 5px;
+    border: none;
+    padding-left: 40px;
+}
+
+.search button{
+    width: 20%;
+    height: 100%;
+    background: #CF0063;
+    border: none;
+}
+
+.footer img{
+    margin-top: 100px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.footer img:hover{
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+.container2{
+    display: flex;
+    gap: 25px;
+    color: #A8A8A8;
+    list-style: none;
+}
+
+.item2{
+    transition: 1s;
+    cursor: pointer;
+}
+
+.item2:hover{
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+@keyframes slideup{
+    from{
+        opacity: 0;
+        transform: translateY(70px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
